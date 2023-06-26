@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    font-size: 150%;
+}
+aside{
+    border: 2px solid hotpink;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(226, 230, 157);
+    background-image: url(pics/myphoto.jpg);
+}
+form{
+    border: 2px solid yellow;
+}
+fieldset{
+    border: 1px solid blue;
+    border-radius: 7%;
+    
+}
+legend{
+    text-align: center;
+    color: rgb(76, 0, 255);
+    border-bottom: 3px dotted red;
+}
+label{
+    display: block;
+    text-align: center;
+}
+input{
+    float: inline-start;
+}
+.submit{
+    float: right;
+    color: green;
+    border: 2px solid rgb(137, 3, 115);
+    border-radius: 20%;
+}
+.forget{
+    float: left;
+}

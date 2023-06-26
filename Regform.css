@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(241, 220, 113);
+    padding: 2%;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: green;
+    text-align: center;
+}
+form{
+    border: 5px solid green;
+    background-color:  #fde6a2;
+    height: 100%;
+}
+fieldset{
+    border: 3px solid blue;
+    border-radius: 50;
+    
+}
+legend{
+    font-weight: bold;
+    border: 2px solid;
+    text-align: right;
+    color: blue;
+}
+.mot{
+    text-align: left;
+    border: 3px dotted rgb(10, 252, 10);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(10, 252, 10);
+    font-weight: bold;
+    padding-top: 1%;
+}
+.mo{
+    text-align: left;
+    border: 3px dotted rgb(10, 252, 10);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(76, 252, 17);
+    font-weight: bold;
+    padding-top: 5%;
+}
+label{
+    font-weight: bold;
+    display: block;
+}
+input{
+    width: 28%;
+    border: 2px solid red;
+}
+.regno{
+    width: 37%;
+}
+.date{
+    width: 18%;
+}
+.button{
+    width: 90px;
+    height: 60px;
+    float: right;
+    border: 3px solid magenta;
+    background-color: rgb(98, 191, 222);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.male{width: 4%;}
+.female{width: 4%;}
+footer{
+    text-align: right;
+    font-style: italic;
+    color: brown;
+}

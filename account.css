@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(241, 220, 113);
+    padding: 2%;
+}
+form{
+    border: 1px solid green;
+    
+}
+fieldset{
+    border-color: blue;
+    background-color: yellowgreen;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50px;
+    color: blue;
+    background-color: yellow;
+}
+label{
+    font-weight: bold;
+    display: block;
+}
+input{
+    width: 28%;
+    border: 2px solid red;
+}
+.button{
+    width: 10%;
+    float: right;
+    border: 3px solid magenta;
+    background-color: rgb(98, 191, 222);
+    cursor: pointer;
+}

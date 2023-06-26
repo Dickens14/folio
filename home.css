@@ -1,0 +1,145 @@
+body{
+    background-image: url(../pics/home.jpg);
+    background-size: cover;
+    background-color: rgb(16, 1, 1);
+    background-blend-mode: soft-light;
+    color: aliceblue;
+}
+h5{
+    text-align: right;
+    color: greenyellow;
+}
+h1{
+    text-align: center;
+}
+#logo{
+    font-style: italic;
+    text-align: center;
+}
+.image1{
+    width: 100%;
+    height: 20%;
+}
+.button{
+    padding: 120px;
+    text-decoration: none;
+    color: green;
+}
+.button:hover{
+  background-color: #02901c;
+    color: red;
+    padding: 12px;
+}
+form{
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+
+  
+/*Contact icons and links*/
+.contacts .icon{
+    position: relative;
+    background-color: #f5c1c1;
+    border-radius: 50%;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  
+.contacts .tools {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .contacts .tools::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .contacts .icon:hover .tools {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  
+.contacts .icon:hover span,
+.contacts .icon:hover .tools {
+  text-shadow: 0px -1px 0px rgb(251, 0, 0);
+}
+.contacts .facebook:hover,
+.contacts .facebook:hover .tools,
+.contacts .facebook:hover .tools::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+.contacts .twitter:hover,
+.contacts .twitter:hover .tools,
+.contacts .twitter:hover .tools::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+.contacts .instagram:hover,
+.contacts .instagram:hover .tools,
+.contacts .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+.contacts .gmail:hover,
+.contacts .gmail:hover .tools,
+.contacts .gmail:hover .tools::before {
+  background-color: #aa5a05;
+  color: #ffffff;
+}
+.contacts .telegram:hover,
+.contacts .telegram:hover .tools,
+.contacts .telegram:hover .tools::before {
+  background-color: #37b9e5;
+  color: #ffffff;
+}
+.contacts .whatsapp:hover,
+.contacts .whatsapp:hover .tools,
+.contacts .whatsapp:hover .tools::before {
+  background-color: #02901c;
+  color: #ffffff;
+}
+
+#call{
+    border: 2px solid green;
+    color: green;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+
+  footer{
+    text-align: right;
+    background-color: rgb(128, 39, 210);
+} 

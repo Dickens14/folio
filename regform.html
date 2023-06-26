@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child admission</title>
+    <link rel="stylesheet" type="text/css" href="Regform1.css">
+</head>
+<body>
+    <!--this is a registration form. it will be called if a parrent wanna admit a child-->
+    <form action="Reg.php" method="post" target="accountcreation.html">
+        <h3><u>CHILD REGISTRATION FORM</u></h3>
+       
+        <fieldset>
+            <legend>CHILD DETAILS</legend> 
+            <label>Registration Number:</label>
+            <input class="regno" type="text" name="regno." placeholder="input Reg #" required>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" name="sirname" placeholder="Sir Name" required>
+            <input type="text" name="firstname" placeholder="First Name" required>   
+            <input type="text" name="othernames" placeholder="Other Names">
+            <br>
+            <b>Date of Birth:</b>
+            <input class="date" type="date" name="dob" placeholder="date of birth" required>
+            <b>Birth Certificate:</b>
+            <input type="file" name="file" required>
+            <br><b>Gender:</b>
+                Male<input class="male" type="radio" name="gender" value="male">
+                Female<input class="female" type="radio" name="gender" value="female">
+        </fieldset>
+        <fieldset>
+            <legend>PARENT/GUARDIAN DETAILS</legend>
+            <!--mother-->
+            <legend class="mot">MOTHER</legend>
+            <label>Name:</label>
+            <input type="text" name="sirname" placeholder="Sir Name" required>
+            <input type="text" name="firstname" placeholder="First Name" required>   
+            <input type="text" name="othernames" placeholder="Other Names">
+            <br>
+            <label>Contacts1</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No1:." required>
+            <label>Contacts2</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No2:.">
+            <br>
+            <label>Capture of Front side of ID card</label>
+            <input class="con" type="file" name="file" required>
+            <!--father-->
+            <legend class="mo">FATHER</legend>
+            <label>Name:</label>
+            <input type="text" name="sirname" placeholder="Sir Name">
+            <input type="text" name="firstname" placeholder="First Name">   
+            <input type="text" name="othernames" placeholder="Other Names">
+            <br>
+            <label>Contacts1</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No1:.">
+            <label>Contacts2</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No2:.">
+            <br>
+            <label>Capture of Front side of ID card</label>
+            <input class="con" type="file" name="file">
+            <!--parent care-->
+            <legend class="mo">GUARDIAN</legend>
+            <label>Name:</label>
+            <input type="text" name="firstname" placeholder="First Name" required>   
+            <input type="text" name="othernames" placeholder="Other Names">
+            <br>
+            <label>Contacts1:</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No1:." required>
+            <label>Contacts2:</label>
+            <input class="con" type="tel" name="phone number" size="10" placeholder="Phone No2:.">
+            <br>
+            <label>Capture of Front side of ID card</label>
+            <input class="con" type="file" name="file">
+        </fieldset>
+        <fieldset>
+            <!--place of resident-->
+              <legend>RESIDENTIAL</legend>
+              <label>birth place</label>
+              <input type="text" name="place" placeholder="place of Birth" required>
+              <br>
+              <label>Address</label>
+              <textarea type="text" name="Address" required></textarea>
+              <br>
+              <label>Current resident</label>
+              <input type="text" name="places" required>
+           </fieldset>
+           <fieldset>
+            <legend>STUDY PROGRESS</legend>
+            <label>Transferred From</label>
+            <input type="text" name="school" placeholder="current school of study" required>
+            <b>Current Class:</b>
+                <select>
+                    <option value="ecd" >ECD</option>
+                    <option value="grade1" >Grade 1</option>
+                    <option value="grade2" >Grade 2</option>
+                    <option value="grade3" >Grade 3</option>
+                    <option value="grade4" >Grade 4</option>
+                    <option value="grade5" >Grade 5</option>
+                    <option value="grade6" >Grade 6</option>
+                    <option value="grade7" >Grade 7</option>
+                    <option value="grade8" >Grade 8</option>
+                </select>
+            <b>Admitted to Class:</b>
+                <select>
+                    <option value="grade1" >Grade 1</option>
+                    <option value="grade2" >Grade 2</option>
+                    <option value="grade3" >Grade 3</option>
+                    <option value="grade4" >Grade 4</option>
+                    <option value="grade5" >Grade 5</option>
+                    <option value="grade6" >Grade 6</option>
+                    <option value="grade7" >Grade 7</option>
+                    <option value="grade8" >Grade 8</option>
+                </select><br>
+            <label>Reason for Transfer</label>
+            <textarea type="text" name="Reason">e.g Promoted to the next class</textarea>
+        </fieldset>
+        <input class="button" type="submit" value="Register">
+        <button class="button2" type="reset" title="Are you sure to clear all the Data?">Clear All</button>
+    </form>
+    <button>Back</button>
+</body>
+</html>

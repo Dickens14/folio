@@ -1,0 +1,267 @@
+body{
+    font-size: 130%;
+    background-color: rgb(146, 244, 76);
+    border: 8px dotted rgb(72, 72, 249);
+}
+nav{
+    margin-top: -17px;
+    background-color: bisque;
+    text-align: center;
+}
+.headimage{
+    width: 100%;
+    height: 90px;
+    border: 2px double blueviolet;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+.headimage:hover {
+    border: 5px dotted rgb(255, 166, 1);
+    background-color: #e1306c;
+}
+
+#folio{
+  color: green;
+  font-family: Pristina;
+  text-decoration: overline;
+  text-decoration-color: rgb(11, 245, 253);
+  text-decoration-style: wavy;
+  border-bottom: 3px solid rgb(9, 226, 238);
+  border-bottom-width: thin;
+ 
+}
+h1{/*Dickens aoko*/
+    color: blue;
+    background-color: rgb(246, 146, 24);
+    font-family: segoe UI;
+    width: max-content;
+    font-size: 250%;
+    border: 3px solid blue;    
+}
+h1:hover{
+    color: red;
+    background-color: rgb(59, 210, 244);
+    border: 3px solid red;  
+}
+marquee{
+    color: brown;
+    background-color: aliceblue;
+    width: 89%;
+    }
+a{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: blue;
+    border-radius: 30%;
+    border-top: 2px solid black;
+
+    font-size: 120%;
+    
+}
+a:hover{
+    color: rgb(255, 0, 217);
+    background-color: rgb(15, 11, 0);
+}
+.offer{
+  border-top: none;
+  color: green;
+  font-size: 90%;
+  border-radius: 0%;
+}
+aside{
+    background-color: rgb(231, 142, 110);
+    margin-top: -26px;
+}
+
+
+
+/*photos slide*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 200px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #007208;
+    font-size: 20px;
+    background-color: wheat;
+    padding: 8px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+ .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #5b5757;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #e7ee12;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade; animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .2} 
+    to {opacity: .999999}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 400px) {
+    .text {font-size: 11px}
+  }
+
+  #image-slide{
+    border: 3px solid rgb(255, 238, 0);
+  }
+
+h3{
+  text-align: center;
+  color: #07276a;
+}
+
+
+
+
+
+  
+/*Contact icons and links*/
+.contacts .icon{
+    position: relative;
+    background-color: #f5c1c1;
+    border-radius: 50%;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  
+.contacts .tools {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .contacts .tools::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .contacts .icon:hover .tools {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  
+.contacts .icon:hover span,
+.contacts .icon:hover .tools {
+  text-shadow: 0px -1px 0px rgb(251, 0, 0);
+}
+.contacts .facebook:hover,
+.contacts .facebook:hover .tools,
+.contacts .facebook:hover .tools::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+.contacts .twitter:hover,
+.contacts .twitter:hover .tools,
+.contacts .twitter:hover .tools::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+.contacts .instagram:hover,
+.contacts .instagram:hover .tools,
+.contacts .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+.contacts .gmail:hover,
+.contacts .gmail:hover .tools,
+.contacts .gmail:hover .tools::before {
+  background-color: #aa5a05;
+  color: #ffffff;
+}
+.contacts .telegram:hover,
+.contacts .telegram:hover .tools,
+.contacts .telegram:hover .tools::before {
+  background-color: #37b9e5;
+  color: #ffffff;
+}
+.contacts .whatsapp:hover,
+.contacts .whatsapp:hover .tools,
+.contacts .whatsapp:hover .tools::before {
+  background-color: #02901c;
+  color: #ffffff;
+}
+/*phone icon*/
+span{
+  content: "\260E";
+}
+
+
+footer{
+    text-align: right;
+    background-color: rgb(219, 194, 242);
+} 
+
+/*preventing copying the web texts*/
+@media print{
+  html,
+  body {
+    display: none;
+  }
+}
+
+html{
+  user-select: none;
+}
